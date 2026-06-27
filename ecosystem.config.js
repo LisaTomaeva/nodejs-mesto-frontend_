@@ -14,7 +14,7 @@ module.exports = {
       ref: DEPLOY_REF,
       repo: DEPLOY_REPO,
       path: DEPLOY_PATH,
-      'post-deploy': 'source ~/.nvm/nvm.sh && npm install && npm run build',
+      'post-deploy': 'source ~/.nvm/nvm.sh && npm install && export NODE_OPTIONS=--openssl-legacy-provider && npm run build',
     },
   },
 }; 
