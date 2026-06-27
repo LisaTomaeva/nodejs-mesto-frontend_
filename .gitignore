@@ -1,0 +1,8 @@
+# Dependency directory
+node_modules
+
+# Typescript build
+build
+
+# Deploy env
+.env.deploy
